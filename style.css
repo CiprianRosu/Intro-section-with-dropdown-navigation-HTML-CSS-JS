@@ -12,7 +12,8 @@
 
 .leftnav img {
     width: 100px;
-    padding-right:10px;
+    /* padding-right:10px; */
+    /* margin-right: 50px; */
     padding-top: 5px;
 }
 nav {
@@ -38,6 +39,7 @@ nav {
     padding-left: 10px;
     text-decoration: none;
     color:black;
+    margin-right:50px;
 }
 .rightnav{
 display: flex;
@@ -71,19 +73,24 @@ margin-right:100px;
 .select-btn i{
     font-size: 25px;
     transition: 0.3s;
+    margin-right: 50px;
 }
 .select-menu.active .select-btn i{
     transform: rotate(-180deg);
 }
 .sBtn-text{
     font-size: 15px;
+    margin-left: 50px;
+    
 }
+
  .options{
     position: absolute; 
     padding: 20px;
+    margin-right: -100px;
     border-radius: 8px;
     background: #fff;
-    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    box-shadow: 0 0 35px rgba(0,0,0,0.1);
     display: none;
     align-items: flex-end;
 }
@@ -92,9 +99,9 @@ margin-right:100px;
 }
 .options .option{
     display: flex;
-    height: 55px;
+    height: 30px;
     cursor: pointer;
-    padding: 0 16px;
+    /* padding: 0 16px; */
     border-radius: 8px;
     align-items: center;
     background: #fff;
@@ -102,11 +109,77 @@ margin-right:100px;
 .options .option:hover{
     background: #F2F2F2;
 }
-/* .option img{
-    font-size: 25px;
-    margin-right: 12px;
-} */
+.option img{
+    /* font-size: 15px; */
+    margin-right: 10px;
+}
+
 .option .option-text{
-    font-size: 18px;
+    font-size: 15px;
     color: #333;
+    padding-top: 5px;
+}
+
+.select-btn2{
+    display: flex;
+    height: 55px;
+    background: #fff;
+    /* padding: 20px; */
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+   
+}
+.select-btn2 i{
+    font-size: 25px;
+    transition: 0.3s;
+    margin-right: 50px;
+}
+.select-menu2.active2 .select-btn2 i{
+    transform: rotate(-180deg);
+}
+.sBtn-text2{
+    font-size: 15px;
+}
+ .options2{
+    position: absolute; 
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 35px rgba(0,0,0,0.1);
+    display: none;
+    align-items: flex-end;
+}
+.select-menu2.active2 .options2{
+    display: block;
+}
+.options2 .option2{
+    display: flex;
+    height: 30px;
+    cursor: pointer;
+    /* padding: 0 16px; */
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+.options2 .option2:hover{
+    background: #F2F2F2;
+}
+.option2 img{
+    /* font-size: 15px; */
+    margin-right: 10px;
+}
+
+.option2 .option-text2{
+    font-size: 15px;
+    color: #333;
+    padding-top: 5px;
+}
+main {
+    display: flex;
+    width:1050px;
+    justify-content: space-between;
 }
