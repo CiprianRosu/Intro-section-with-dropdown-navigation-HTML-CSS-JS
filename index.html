@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-  
+
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -17,91 +17,71 @@
   </style>
 </head>
 <body>
-  
-    <nav>
-      <div class="leftnav">
-        <img src="images/logo.svg">
-        
-        <div class="select-menu">
-          <div class="select-btn">
-              <span class="sBtn-text">Features</span>
-              <i class="bx bx-chevron-down"></i>
-          </div>
-      
-          <div class="options">
-              <div class="option">
-                  <img src="images/icon-todo.svg" style="width: 15px;">
-                  <span class="option-text">Todo List</span>
-              </div>
-              <div class="option" >
-                  <img src="images/icon-calendar.svg" style="width: 15px;">
-                  <span class="option-text">Calendar</span>
-              </div>
-              <div class="option" >
-                  <img src="images/icon-reminders.svg" style="width: 15px;">
-                  <span class="option-text">Remainder</span>
-              </div>
-              <div class="option" >
-                  <img src="images/icon-planning.svg" style="width: 15px;">
-                  <span class="option-text">Planning</span>
-              </div>
-              
-            </div>
-      </div>
-      <div class="select-menu2">
-        <div class="select-btn2">
-            <span class="sBtn-text2">Company</span>
+<header>
+  <nav class="navbar">
+    
+    <div class="nav-menu">
+      <img src="images/logo.svg" class="nav-branding">
+      <div class="select-menu">
+        <div class="select-btn">
+            <span class="sBtn-text">Features</span>
             <i class="bx bx-chevron-down"></i>
         </div>
     
-        <div class="options2">
-            <div class="option2">
-                <span class="option-text2">History</span>
+        <div class="options">
+            <div class="option">
+                <img src="images/icon-todo.svg" style="width: 15px;">
+                <span class="option-text">Todo List</span>
             </div>
-            <div class="option2" >
-                <span class="option-text2">Our Team</span>
+            <div class="option" >
+                <img src="images/icon-calendar.svg" style="width: 15px;">
+                <span class="option-text">Calendar</span>
             </div>
-            <div class="option2" >
-                <span class="option-text2">Blog</span>
+            <div class="option" >
+                <img src="images/icon-reminders.svg" style="width: 15px;">
+                <span class="option-text">Remainder</span>
             </div>
+            <div class="option" >
+                <img src="images/icon-planning.svg" style="width: 15px;">
+                <span class="option-text">Planning</span>
+            </div>
+            
           </div>
     </div>
-      
-        <a href="#careers">Careers</a>
-        <a href="#about">About</a>
-    
-    <div class="rightnav">
-        <button style="background-color: #ffffff;border:none;" >Login </button>
-        <span><button style="background-color: #ffffff;border:solid 0.5px;">Register</button></span>
-        <img src="images/icon-menu.svg" class="menu">
+        <div class="nav-item">
+            <a href="#" class="nav-link">Company</a>
+        </div>
+        <div class="nav-item">
+            <a href="#" class="nav-link">Careers</a>
+        </div>
+        <div class="nav-item">
+          <a href="#" class="nav-link">About</a>
+        </div>
     </div>
-  </div>
-    </nav>
-  <main>
-    
-    <div class="left-elem">
-      <h1> Make remote work</h1>
-
-      <p>Get your team in sync, no matter your location. Streamline processes, 
-      create team rituals, and watch productivity soar.</p>
-
-      <button> Learn more</button>
-      <div class="clients">
-        <img src="images/client-databiz.svg">
-        <img src="images/client-audiophile.svg">
-        <img src="images/client-meet.svg">
-        <img src="images/client-maker.svg">
-      </div>
+    <div class="buttons">
+        <button>Login</button>
+        <button>Register</button>
     </div>
-    <div class="right-elem">
-        <img src="images/image-hero-desktop.png" class="desktop">
-        <img src="images/image-hero-mobile.png" class="mobile">
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
     </div>
-  
-  </main>
+</nav>
+</header>
 <script src="script.js"></script>
-<footer>
 
-</footer>
+
+  <!-- Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
 </body>
 </html>
